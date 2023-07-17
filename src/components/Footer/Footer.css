@@ -1,0 +1,46 @@
+.footer {
+  background-color: black;
+  font-size: 20px;
+  font-family: 'Shadows Into Light Two', cursive;
+  flex-direction: row;
+  text-align: center;
+}
+
+.foot {
+  display: inline-block;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.direcciontelefono {
+  display: inline;
+  margin: 10px;
+  color: white;
+}
+
+.wsp {
+  width: 30px;
+  justify-content: center;
+}
+
+.direcciontelefono p {
+  font-family: 'Caveat', cursive;
+  color: red;
+}
+
+.redessociales {
+  width: 30px;
+  display: inline;
+  text-align: center;
+  color: white;
+}
+
+.copy {
+  text-align: center;
+  font-size: 10px;
+}
+
+.copy p {
+  font-family: 'Caveat', cursive;
+  color: red;
+}
+

@@ -1,0 +1,16 @@
+p {
+    color: red;
+    font-size: large;
+    padding-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+
+.Alert {
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    text-justify: distribute;
+    background-color: black;
+
+}

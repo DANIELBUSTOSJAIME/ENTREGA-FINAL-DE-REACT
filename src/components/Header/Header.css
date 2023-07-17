@@ -1,0 +1,20 @@
+.Header {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: auto;
+    width: auto;
+    height: auto;
+    margin: 3px;
+    ;
+}
+
+.Header h1 {
+    color: rgb(224, 182, 65);
+    font-family: 'Shadows Into Light Two', cursive;
+    padding: 2px;
+}
+
+.Header h2 {
+    color: rgb(218, 40, 54);
+    font-family: 'Caveat', cursive;
+}

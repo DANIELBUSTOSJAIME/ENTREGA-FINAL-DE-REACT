@@ -1,0 +1,98 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.product-name {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.product-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#product-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  ;
+}
+
+.product-quantity {
+  margin: 0 10px;
+}
+
+button {
+  background-color: #ccc;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #aaa;
+}
+
+button:active {
+  background-color: #888;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.delete-button {
+  margin-top: 10px;
+  background-color: #ff0000;
+  color: #fff;
+}
+
+button.delete-button:hover {
+  background-color: #cc0000;
+}
+
+.botonVaciar {
+  background-color: #f44336;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.botonVaciar:hover {
+  background-color: #d32f2f;
+}
+
+@media (max-width: 768px) {
+  .product-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .product-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

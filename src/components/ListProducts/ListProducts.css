@@ -1,0 +1,16 @@
+.Card-List {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 768px) {
+  .Card-List {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .Card-List {
+    grid-template-columns: 1fr;
+  }
+}

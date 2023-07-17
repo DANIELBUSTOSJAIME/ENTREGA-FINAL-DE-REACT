@@ -1,0 +1,29 @@
+.ImgLogo {
+    width: 55px;
+}
+
+.NavBar {
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.479);
+    text-decoration: none;
+
+}
+
+.NavBar:hover {
+    color: rgb(245, 237, 237);
+}
+
+.letter {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: larger;
+    font-weight: bolder;
+    justify-items: center;
+}
+
+.NavDrop {
+    color: black;
+    text-decoration: none;
+    padding-top: 7px;    
+}
+
+
